@@ -1,0 +1,60 @@
+body{
+	color:rgb(40,75,99);
+	background-color:rgb(214,234,233);
+	font-family:"Times New Roman";
+}
+
+h1{
+	font-family:"Rubik Mono One", sans-serif;
+	width:350px;
+	background: #fff;
+	padding:8px;
+	border:double;
+	border-width:12px;
+	font-size:30px;
+	text-align:center;
+}
+h3{
+	background: rgb(40,75,99);
+	color:white;
+	padding:14px;
+	margin:12px;
+	
+
+
+}
+
+
+.recipe{
+	color:rgb(40,75,99);
+	font-size:19px;
+	font-weight:normal;
+	margin:30px;
+	font-family:"times new roman";
+
+}
+
+#caeser{
+	color:rgb(40,75,99);
+	background-color:rgb(214,234,233);
+
+}
+.description{
+	background:rgb(188,220,219);
+	padding:8px;
+	border:solid;
+	border-width:4px;
+	font-size:15px;
+	text-align:center;
+	display:inline-block;
+}
+
+.stars{
+	text-align:center;
+	display:inline-block;
+	margin:0px 40px;
+}
+
+
+
+
