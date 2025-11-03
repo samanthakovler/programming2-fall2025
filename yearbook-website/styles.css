@@ -1,0 +1,119 @@
+
+html,body{
+	background-color: rgb(1, 113, 206);
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	background-color:rgb(1, 113, 206)
+	
+;
+}
+	
+
+.menu{
+	display:flex;
+	flex-direction:row;
+  	justify-content:center;
+  	gap:50px;
+  	padding:15px;
+  	font-size:25px;
+  	font-family:"momo trust display";
+
+}
+/*this makes it so when you hover over 
+the links, they have a cool white underline*/
+#link1:hover,#link2:hover{
+	text-decoration:underline;
+	text-decoration-color: white;
+}
+/*this puts a parker logo image at the top 
+of each screen with a white background */
+#parker-image{
+	text-align:center;
+	background-color:white;
+
+}
+
+#house{
+	display:flex;
+	justify-content:center;
+	flex-shrink:1;
+
+}
+
+.box{
+	background:rgb(71, 123, 255);
+	color:white;
+	border:solid;
+	padding:14px;
+	margin:12px;
+	font-size:25px;
+	width:300px;
+	font-family:"momo trust display";
+	flex-basis:1;
+
+	
+
+}
+.people{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+ }
+/*this puts each leadership member
+in a grid style layout*/
+ .leadership{
+  display:flex;
+  margin:10;
+  justify-content:space-around;
+  align-items:center;
+  gap:32px;
+  flex-wrap:wrap;
+}
+.text{
+	color:white;
+	width:125px;
+	font-size:19px;
+	font-family:"Momo trust display";
+	
+
+
+}
+
+.text1{
+	color:white;
+	font-size:20px;
+	font-family:"momo trust display";
+
+}
+
+.role{
+	font-family:"momo trust display";
+	font-size:14px;
+	color:black;
+}
+
+
+
+
+.gallery{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	gap:32px;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+.records{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding-left:13px;
+}
