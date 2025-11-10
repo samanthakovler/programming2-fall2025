@@ -13,7 +13,7 @@
 
 
      // simple story using the noun
-     const story = "Once upon a time, there was a " + noun + ". This " + noun + " loved to " + verb + " very " + adverb1 + ". One day the " + noun + " ate " + number + " " + food + "s that was very " + adjective + ". The " + food + " looked " + adjective2 + " and made the " + noun + "s stomach " + verb2 + ". Since the " + noun + " loves to " + verb + ", the " + noun + " " + verb + "s to " + place + " very " + adverb;
+     const story = "Once upon a time, there was a " + noun + ". This " + noun + " loved to " + verb + " very " + adverb1 + ". One day the " + noun + " ate " + number + " " + food + "s that were very " + adjective + ". The " + food + " looked " + adjective2 + " and made the " + noun + "s stomach " + verb2 + ". Since the " + noun + " loves to " + verb + ", the " + noun + " " + verb + "s to " + place + " very " + adverb;
 
      document.getElementById("storyOutput").innerText = story;
  }
