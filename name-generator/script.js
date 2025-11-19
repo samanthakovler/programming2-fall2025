@@ -19,13 +19,13 @@
         month = "Green";
     }
         else if (month=="july"){
-        month = "Captain";
+        month = "Blazing";
     }
         else if (month=="august"){
         month = "Fantastic";
     }
         else if (month=="september"){
-        month = "Blazing";
+        month = "Captain";
     }
         else if (month=="october"){
         month = "Doctor";
@@ -37,7 +37,7 @@
         month = "Mighty";
     }
     else{
-        month="Incredible"
+        alert("Invalid month")
     }
 // based on age the middle name is
     if (age == "10") {
@@ -79,7 +79,7 @@
         season = "Warrior"
     }
     else{
-        season = "Fist"
+        alert("Invalid season")
 
     }
 
