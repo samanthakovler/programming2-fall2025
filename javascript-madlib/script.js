@@ -1,7 +1,7 @@
  function makeStory() {
-     const noun = document.getElementById("nounInput").value;
-     const verb = document.getElementById("verbInput").value;
-     const food = document.getElementById("foodInput").value;
+     const month = document.getElementById("month").value;
+     const age = document.getElementById("age").value;
+     const season = document.getElementById("season").value;
      const number = document.getElementById("numberInput").value;
      const adjective = document.getElementById("adjectiveInput").value;
      const adjective2 = document.getElementById("adjective2Input").value;
