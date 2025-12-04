@@ -3,8 +3,8 @@ function party() {
 	let sodas = (people * 2);
 	let snacks = (people * 3);
 	let balloons = (people * 4);
-	let chairs = (people + 3);
-	let partyhat = (people + 3);
+	let chairs = 3 + Number(people);
+	let partyhat = 3 + Number(people);
 
 
 
