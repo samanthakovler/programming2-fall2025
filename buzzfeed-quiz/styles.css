@@ -1,0 +1,42 @@
+img{
+	width:250px;
+}
+
+body{
+	background-color:black;
+	color:limegreen;
+	font-family:"Momo Trust Display";
+}
+
+#container{
+	display:flex;
+	gap:100px;
+}
+
+button{
+	background-color:green;
+	color:cyan;
+	width:250;
+	height:75px;
+	font-family:"Momo Trust Display";
+}
+
+
+
+
+.q{
+	color:cyan;
+}
+
+.questions{
+	width: 400px;
+  	background:black;
+  	margin: 16px auto;
+  	padding:8px;
+  	border: 3px solid #b38dff;
+}
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

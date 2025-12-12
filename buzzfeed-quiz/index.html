@@ -6,74 +6,106 @@
 	<title>Buzzfeed Quiz</title>
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="styles.css" />
+	<link href=""https://fonts.googleapis.com/css2?family="<link rel="preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Momo+Trust+Display&display=swap" rel="stylesheet">
         <link>
 </head>
 <body>
 <!-- Radio buttons for programmingLanguage -->
 	<h1> Which Monsters Inc. Character Are You?</h1>
-	<div id = "describe">
-	    <p>How would your friends describe you?</p>
+<div id = "container">
+	<div id = "describe" class ="questions">
+	    <p class = "q">How would your friends describe you?</p>
 
-	    <input type="radio" id="chaotic" name="describe">
-	    <label for="html">Chaotic</label><br>
+	    <input type="radio" id="chaotic" name="q1">
+	    <label for="chaotic">Chaotic</label><br>
 	    <!-- mike -->
 
 	    <input type="radio" id="loyal" name="describe">
 	    <label for="loyal">Loyal</label><br>
 	     <!-- sully -->   
-	    <input type="radio" id="sarcastic" name="describe">
+	    <input type="radio" id="sarcastic"  name="describe">
 	    <label for="sarcastic">Sarcastic</label><br>
 	    <!-- roz -->
 	    <input type="radio" id="clever" name="describe">
 	    <label for="clever">Clever</label><br>
 	    <!-- randall -->
-	    <input type="radio" id="funny" name="describe">
+	    <input type="radio" id="funny"name="describe">
 	    <label for="funny">Funny</label><br>
 	    <!-- boo -->
 	</div>
-	<div id = "fear">
-	    <p>Whats your biggest fear?</p>
+	<div id = "fear" class ="questions">
+	    <p class = "q">Whats your biggest fear?</p>
 
-	    <input type="radio" id="dissapoint" name="dissapoint">
+	    <input type="radio" id="dissapoint" name="fear">
 	    <label for="dissapoint">Dissapointing others</label><br>
 	    <!-- sully -->
-	    <input type="radio" id="bugs" name="bugs">
+	    <input type="radio" id="bugs" name="fear">
 	    <label for="bugs">Bugs</label><br>
 	     <!-- boo -->   
-	    <input type="radio" id="failure" name="failure">
+	    <input type="radio" id="failure" name="fear">
 	    <label for="failure">Failure</label><br>
 	    <!-- mike -->
-	    <input type="radio" id="noises" name="noises">
+	    <input type="radio" id="noises" name="fear">
 	    <label for="noises">Loud noises</label><br>
 	    <!-- roz -->
-	    <input type="radio" id="nothing" name="nothing">
+	    <input type="radio" id="nothing" name="fear">
 	    <label for="nothing">Nothing, I'm fearless</label><br>
 	    <!-- randall -->
 	</div>
 
-	<div id = "job">
-	    <p>Whats your dream job?</p>
+	<div id = "job" class ="questions">
+	    <p class = "q">Whats your dream job?</p>
 
-	    <input type="radio" id="police" name="police">
+	    <input type="radio" id="police" name="job">
 	    <label for="police">Police officer</label><br>
 	    <!-- sully -->
-	    <input type="radio" id="Comedian" name="Comedian">
-	    <label for="Comedian">Comedian</label><br>
+	    <input type="radio" id="comedian" name="job">
+	    <label for="comedian">Comedian</label><br>
 	     <!-- mike -->   
-	    <input type="radio" id="CEO" name="CEO">
-	    <label for="CEO">CEO</label><br>
+	    <input type="radio" id="ceo" name="job">
+	    <label for="ceo">CEO</label><br>
 	    <!-- randall -->
-	    <input type="radio" id="Scientist" name="Scientist">
-	    <label for="Scientist">Scientist</label><br>
+	    <input type="radio" id="scientist" name="job">
+	    <label for="scientist">Scientist</label><br>
 	    <!-- roz -->
-	    <input type="radio" id="Teacher" name="Teacher">
-	    <label for="Teacher">Teacher</label><br>
+	    <input type="radio" id="teacher" name="job">
+	    <label for="teacher">Teacher</label><br>
 	    <!-- boo -->
 	</div>
+	<div id = "vacation" class ="questions">
+	    <p class = "q">Where is your dream vacation spot?</p>
+
+	    <input type="radio" id="jungle" name="vacation">
+	    <label for="jungle">Exploring in the jungle</label><br>
+	    <!-- randall -->
+	    <input type="radio" id="museum" name="vacation">
+	    <label for="museum">Museum</label><br>
+	     <!-- roz -->   
+	    <input type="radio" id="mountain" name="vacation">
+	    <label for="mountain">Cabin in the mountains</label><br>
+	    <!-- sully -->
+	    <input type="radio" id="beach" name="vacation">
+	    <label for="beach">Beach</label><br>
+	    <!-- boo -->
+	    <input type="radio" id="amusement" name="vacation">
+	    <label for="amusement">Amusement Park</label><br>
+	    <!-- mike -->
+	</div>
+</div>
+	
+
 
 
     <br><br>
 
-    <button onclick="getResults()">Get Results!</button>
+    <button onclick="getResults()">Get Results and Open the door!!!</button>
+
+    <p id="result"></p>
+    <img id ="door" src="https://d11unjture0ske.cloudfront.net/transparent_background_image.fd3033ce-51d1-484a-8f5f-102aaf7cf99f.4c505a1d-396d-44f4-aabe-cce2db87246c.png" />
+    <img id = "img" src = " " height>
+    <p id="paragraph"></p>
+
 </body>
 </html>
