@@ -1,0 +1,143 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+ #header{
+    display:flex;
+ }
+
+.link{
+    text-decoration:none;
+    color:#60666a;
+}
+
+.link:hover{
+    color:#d7d9db;
+}
+
+
+#testimonials{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#about,#contact{
+    display:flex;
+    padding-top:20px;
+    justify-content:space-between;
+}
+
+#onetwo{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+}
+
+#fourfive{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+}
+
+
+
+#t1,#t5{
+    background-color:#60666a;
+    padding:50px;
+    border-radius:25px;
+    padding: 0px 50px 10px 50px;
+    margin-bottom:20px;
+}
+
+#t2,#t4{
+    background-color:#a9abae;
+    padding:50px;
+    border-radius:25px;
+    padding: 0px 50px 10px 50px;
+    margin-bottom:20px;
+}
+
+#t3{
+    background-color:#d7d9db;
+    padding-top:0px;
+    padding: 0px 50px 50px 50px;
+    border-radius:25px;
+    width:200px;
+    height:600px;
+}
+
+#aboutgail,#contact-fields,#aboutmac,.contact-description{
+    padding:20px;
+    border-radius:25px;
+    width:500px;
+}
+
+#contacttext{
+    margin-left:30px;
+}
+
+#aboutgail,.contact-description{
+    background-color:#d7d9db;
+}
+#contact-fields{
+    background-color:#a9abae;
+    margin-top:30px;
+
+}
+#aboutmac{
+    background-color:#a9abae;
+    margin-top:20px;
+}
+
+
+#testphoto{
+    display:flex;
+    justify-content:center;
+}
+
+#contact2{
+    background-color:#d7d9db;
+    padding-top:0px;
+    padding: 0px 50px 50px 50px;
+    border-radius:25px;
+    width:200px;
+    height:600px;
+}
+
+button{
+    font-size:25px;
+    border-radius:5px;
+    border-width:2px;
+    font-family: "Montserrat", sans-serif;
+    border:solid;
+}
+
+.contact-label{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
